@@ -3,9 +3,9 @@ main {
     /*grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 1fr 2fr;*/
     grid-template-areas: 
-    "r r b g g"
-    "y y c c p"
-    "y y c c p"
+    "g g b p p"
+    "y r c p p"
+    "y r c p p"
 }
 
 .red {
