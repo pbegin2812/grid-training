@@ -27,3 +27,8 @@ main {
     background-color: yellow;
     grid-area: y;
 }
+
+.cyan {
+    background-color: cyan;
+    grid-area: c;
+}
