@@ -32,3 +32,8 @@ main {
     background-color: cyan;
     grid-area: c;
 }
+
+.purple {
+    background-color: purple;
+    grid-area: p;
+}
