@@ -4,8 +4,8 @@ main {
     grid-template-rows: 1fr 2fr;*/
     grid-template-areas: 
     "r r b g g"
-    "r r g g b"
-    "r r g g b"
+    "y y c c b"
+    "y y c c b"
 }
 
 .red {
