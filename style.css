@@ -1,17 +1,24 @@
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 2fr;
+    /*grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr;*/
+    grid-template-areas: 
+    "r r b g g"
+    "r r g g b"
+    "r r g g b"
 }
 
 .red {
     background-color: red;
+    grid-area: r;
 }
 
 .blue {
     background-color: blue;
+    grid-area: b;
 }
 
 .green {
     background-color: green;
+    grid-area: g;
 }
